@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         seekBarTip.progress = INITIAL_TIP_PERCENT
         tvTipPercentLabel.text = "$INITIAL_TIP_PERCENT%"
         updateTipDescription(INITIAL_TIP_PERCENT)
+
         seekBarTip.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
                 Log.i(TAG,"onProgressChanged $p1")
@@ -62,11 +63,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateTipDescription(tipPercent: Int) {
         val tipDescription = when (tipPercent){
-            in 0..9 -> "Poor"
-            in 10..14 -> "Acceptable"
-            in 15..19 -> "Good"
-            in 20..24 -> "Great"
-            else -> "Amazing"
+            in 0..9 -> "Poor \uD83E\uDD22"
+            in 10..14 -> "Acceptable \uD83E\uDD74"
+            in 15..19 -> "Good \uD83D\uDE42"
+            in 20..24 -> "Great \uD83D\uDE01"
+            else -> "Amazing \uD83E\uDD17"
         }
         tvTipDescription.text = tipDescription
         // Update the color based on the tipPercent
