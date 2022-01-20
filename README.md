@@ -1,6 +1,6 @@
 # Tip Calculator
 
-## *Your name here*
+## *Chirantan Basu*
 
 **FairTip** computes the tip and total amount for a bill. The app uses the base amount and tip percentage to calculate the amount owed, and it also describes the quality of service based on the tip.
 
@@ -23,7 +23,7 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[FairTip](https://i.imgur.com/WQYO9VL.mp4)
+[FairTip] (https://i.imgur.com/WQYO9VL.mp4)
 
 
 ## License
