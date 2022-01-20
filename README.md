@@ -23,7 +23,7 @@ The following **extensions** are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[FairTip] (https://i.imgur.com/WQYO9VL.mp4)
+<img src='https://i.imgur.com/WQYO9VL.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## License
